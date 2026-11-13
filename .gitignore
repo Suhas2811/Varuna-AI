@@ -1,0 +1,24 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*.csv
+
+# Keep preprocessing report
+!data/processed/preprocessing_report.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code local settings
+.vscode/

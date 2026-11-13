@@ -1,0 +1,26 @@
+
+VARUNA AI - PREPROCESSING REPORT
+
+Original records: 652315
+
+Exact duplicate rows removed: 140
+
+Final records: 652175
+
+Total columns: 16
+
+Invalid timestamps: 0
+
+Missing apartment values: 154243
+
+Missing cluster values: 41791
+
+Missing value measurements: 0
+
+Missing aggregated measurements: 0
+
+Unique sensors: 214
+
+Final exact duplicates: 0
+
+Preprocessing completed successfully.
