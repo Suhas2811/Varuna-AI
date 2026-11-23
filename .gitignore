@@ -22,3 +22,7 @@ data/processed/*.csv
 
 # VS Code local settings
 .vscode/
+
+# Temporary files
+*.tmp
+.DS_Store

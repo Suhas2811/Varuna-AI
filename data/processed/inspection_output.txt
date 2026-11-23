@@ -1,0 +1,84 @@
+Loading water consumption dataset...
+
+========== DATASET OVERVIEW ==========
+Number of rows: 652315
+Number of columns: 16
+
+========== COLUMN NAMES ==========
+['timestamp', 'date', 'hour', 'day_of_week', 'day_name', 'month', 'year', 'sensor_id', 'apartment', 'cluster_name', 'room_number', 'room_type', 'type', 'attached_to', 'value', 'aggregated_value']
+
+========== DATA TYPES ==========
+timestamp               str
+date                    str
+hour                  int64
+day_of_week           int64
+day_name                str
+month                 int64
+year                  int64
+sensor_id               str
+apartment               str
+cluster_name            str
+room_number             str
+room_type               str
+type                    str
+attached_to             str
+value               float64
+aggregated_value    float64
+dtype: object
+
+========== FIRST 5 RECORDS ==========
+             timestamp        date  ...  value  aggregated_value
+0  2019-12-31 00:00:00  2019-12-31  ...  0.010            84.024
+1  2019-12-31 00:00:00  2019-12-31  ...  0.006             6.589
+2  2019-12-31 00:00:00  2019-12-31  ...  0.003             6.483
+3  2019-12-31 00:00:00  2019-12-31  ...  0.004             3.784
+4  2019-12-31 00:00:00  2019-12-31  ...  0.001             9.148
+
+[5 rows x 16 columns]
+
+========== MISSING VALUES ==========
+timestamp                0
+date                     0
+hour                     0
+day_of_week              0
+day_name                 0
+month                    0
+year                     0
+sensor_id                0
+apartment           154269
+cluster_name         41798
+room_number              0
+room_type                0
+type                     0
+attached_to              0
+value                    0
+aggregated_value         0
+dtype: int64
+
+========== DUPLICATE RECORDS ==========
+140
+
+========== DATASET INFORMATION ==========
+<class 'pandas.DataFrame'>
+RangeIndex: 652315 entries, 0 to 652314
+Data columns (total 16 columns):
+ #   Column            Non-Null Count   Dtype
+---  ------            --------------   -----
+ 0   timestamp         652315 non-null  str
+ 1   date              652315 non-null  str
+ 2   hour              652315 non-null  int64
+ 3   day_of_week       652315 non-null  int64
+ 4   day_name          652315 non-null  str
+ 5   month             652315 non-null  int64
+ 6   year              652315 non-null  int64
+ 7   sensor_id         652315 non-null  str
+ 8   apartment         498046 non-null  str
+ 9   cluster_name      610517 non-null  str
+ 10  room_number       652315 non-null  str
+ 11  room_type         652315 non-null  str
+ 12  type              652315 non-null  str
+ 13  attached_to       652315 non-null  str
+ 14  value             652315 non-null  float64
+ 15  aggregated_value  652315 non-null  float64
+dtypes: float64(2), int64(4), str(10)
+memory usage: 139.3 MB
